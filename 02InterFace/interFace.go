@@ -22,9 +22,9 @@ func (s *std) ShowStudentInfo() {
 func main() {
 	s := std{
 		RollNumber: 11,
-		Name:       "Jayesh Wadle",
+		Name:       "test",
 		Grade:      "2D",
-		Address:    "Wadagon Sheri Pune",
+		Address:    "Test",
 	}
 	var myS Student
 	myS = &s
